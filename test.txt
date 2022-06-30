@@ -13,3 +13,7 @@ git add . //全ファイルをステージへ
 git commit -m "message" //ステージのファイルをコミット
 git fetch origin test-branch //リモートリポジトリの特定ブランチを取得
 git branch -a //ローカルのすべてのブランチを確認
+git merge origin/test-branch //リモートブランチの更新を取り込む
+git add . //ローカルの変更をステージへ
+git commit -m "書き足しをコミット"
+git push origin test-branch //リモートへプッシュ
