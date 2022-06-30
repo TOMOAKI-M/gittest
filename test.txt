@@ -2,3 +2,14 @@
 次の編集
 誰かが編集
 また誰かが編集
+
+
+dir //ファイルのリストを表示
+type //ファイルの中身を表示
+chcp 65001 //文字コードをutf-8に変更
+
+git status //
+git add . //全ファイルをステージへ
+git commit -m "message" //ステージのファイルをコミット
+git fetch origin test-branch //リモートリポジトリの特定ブランチを取得
+git branch -a //ローカルのすべてのブランチを確認
