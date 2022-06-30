@@ -17,3 +17,5 @@ git merge origin/test-branch //リモートブランチの更新を取り込む
 git add . //ローカルの変更をステージへ
 git commit -m "書き足しをコミット"
 git push origin test-branch //リモートへプッシュ
+
+git reset HEAD <file name> //
